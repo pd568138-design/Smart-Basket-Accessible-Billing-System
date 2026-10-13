@@ -2,7 +2,7 @@ import React,{useEffect,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
 import {BrowserMultiFormatReader} from "@zxing/browser";
 import "./style.css";
-const API=(import.meta.env.VITE_API_URL||"http://localhost:8080").replace(/\/$/,"");
+const API=(import.meta.env.VITE_API_URL||"https://smart-basket-accessible-billing-system-2.onrender.com").replace(/\/$/,"");
 function App(){
  const [token,setToken]=useState(localStorage.getItem("sb_token")||"");
  const [user,setUser]=useState(JSON.parse(localStorage.getItem("sb_user")||"null"));
