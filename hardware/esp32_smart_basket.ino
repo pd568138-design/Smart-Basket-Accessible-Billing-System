@@ -15,9 +15,9 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-const char* WIFI_SSID = "YOUR_WIFI_NAME";
-const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
-const char* API_BASE = "https://YOUR-RENDER-SERVICE.onrender.com";
+const char* WIFI_SSID = "vivo pd";
+const char* WIFI_PASSWORD = "priya@2006";
+const char* API_BASE = "https://smart-basket-api.onrender.com";
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 String scanBuffer = "";
 float runningTotal = 0.0;
