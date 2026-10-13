@@ -1,4 +1,4 @@
-```cpp
+
 /*
   Smart Basket ESP32 - LCD Removed
   ESP32 -> Wi-Fi -> Render Express API -> MongoDB Atlas
@@ -112,4 +112,4 @@ void loop() {
     }
   }
 }
-```
+
