@@ -11,7 +11,7 @@
 
 const char* WIFI_SSID = "vivo pd";
 const char* WIFI_PASSWORD = "priya@2006";
-const char* API_BASE = "https://smart-basket-api.onrender.com";
+const char* API_BASE = "https://smart-basket-accessible-billing-system-2.onrender.com";
 
 String scanBuffer = "";
 float runningTotal = 0.0;
